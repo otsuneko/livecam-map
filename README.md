@@ -22,3 +22,4 @@
 - [スプレッドシートからGAS(Apps Scirpt)のスクリプトエディタ起動方法が変更](https://auto-worker.com/blog/?p=4607)
 - [30分でGoogleスプレッドシートを使ってgeojsonを返すAPIを公開する](https://qiita.com/zero3/items/0a56be4f7dfc4b74ca88)
 - [LeafletでGeoJSONを読み込みカスタムアイコンを表示する](https://qiita.com/asahina820/items/7ea0ac3fc2fbbbe7512a)
+- [react-component-depot](https://github.com/codegeous/react-component-depot/blob/master/src/pages/Leaflet/markers.js)
