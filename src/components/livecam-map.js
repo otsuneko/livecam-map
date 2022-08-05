@@ -2,7 +2,7 @@ import React, { Component, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { LatLng } from 'leaflet';
 import './livecam-map.css';
-import { useHistory, useLocation } from 'react-router-dom';
+import RainViewer from './rain-viewer';
 
 function LocationMarker() {
     const [position, setPosition] = useState(new LatLng(35.6809591, 139.7673068))
@@ -33,6 +33,7 @@ export default class LiveCamMap extends Component {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <LocationMarker />
+        <RainViewer />
         <Marker position={position}>
           <Popup>
             Hello World! <br />
