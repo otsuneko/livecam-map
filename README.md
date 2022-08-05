@@ -15,3 +15,10 @@
 ⇒Google SpreadSheetに位置情報保存してJSONとして取得するAPI的な使い方するのでも良いかも。
 - [ ] ライブカメラの登録UI作成
 - [ ] 雨雲に覆われたエリアに含まれるライブカメラ一覧の表示機能作成
+
+## 参考
+- [React Leaflet](https://react-leaflet.js.org/)
+- [Google Spreadsheet を簡易 Webサーバーとして動かして、手軽にWebHookを受け取る方法](https://qiita.com/kunichiko/items/7f64c7c80b44b15371a3)
+- [スプレッドシートからGAS(Apps Scirpt)のスクリプトエディタ起動方法が変更](https://auto-worker.com/blog/?p=4607)
+- [30分でGoogleスプレッドシートを使ってgeojsonを返すAPIを公開する](https://qiita.com/zero3/items/0a56be4f7dfc4b74ca88)
+- [LeafletでGeoJSONを読み込みカスタムアイコンを表示する](https://qiita.com/asahina820/items/7ea0ac3fc2fbbbe7512a)
