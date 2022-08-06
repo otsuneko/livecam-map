@@ -1,7 +1,7 @@
-import React, { Component, useState } from 'react'
+import L from 'leaflet'
+import React, { Component } from 'react'
 import { useMap } from 'react-leaflet'
 import './rain-viewer.css';
-import L from 'leaflet'
 
 function RainView() {
     const map = useMap()
