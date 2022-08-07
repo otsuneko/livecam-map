@@ -28,8 +28,9 @@ export default class LiveCamMap extends Component {
     const position = [35.6809591, 139.7673068];
     const zoom = 7
     const scrollWheelZoom = true
+    const worldCopyJump = true
     return (
-      <MapContainer center={position} zoom={zoom} scrollWheelZoom={scrollWheelZoom}>
+      <MapContainer center={position} zoom={zoom} scrollWheelZoom={scrollWheelZoom} worldCopyJump={worldCopyJump}>
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
