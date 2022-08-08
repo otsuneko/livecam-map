@@ -18,6 +18,9 @@
 - [ ] ライブカメラの登録UI作成
 - [ ] 雨雲に覆われたエリアに含まれるライブカメラ一覧の表示機能作成
 - [ ] 世界地図上で昼/夜区別用レイヤ重畳機能作成
+- [ ] YouTube Liveの配信切れURL検知機能作成
+- [ ] 配信切れ動画が再アップロードされた際に自動的に新URLを再登録する機能作成  
+⇒YouTube Data APIを使ってチャンネルに含まれる動画一覧を取得し、類似タイトルの動画があればそのURLに書き換え、といった処理で実現可能？
 
 ## 参考
 - [React Leaflet](https://react-leaflet.js.org/)
@@ -26,3 +29,4 @@
 - [30分でGoogleスプレッドシートを使ってgeojsonを返すAPIを公開する](https://qiita.com/zero3/items/0a56be4f7dfc4b74ca88)
 - [LeafletでGeoJSONを読み込みカスタムアイコンを表示する](https://qiita.com/asahina820/items/7ea0ac3fc2fbbbe7512a)
 - [react-component-depot](https://github.com/codegeous/react-component-depot/blob/master/src/pages/Leaflet/markers.js)
+- [YouTube Data APIを使ってチャンネルに含まれる動画を取得する流れ](https://zenn.dev/yorifuji/articles/youtube-data-api)
