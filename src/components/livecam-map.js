@@ -4,7 +4,8 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { LatLng } from 'leaflet';
 import './livecam-map.css';
 import RainViewer from './rain-viewer';
-import LiveCam from './livecam'
+import NightRegion from './night-region';
+import LiveCam from './livecam';
 
 function LocationMarker() {
     const [position, setPosition] = useState(new LatLng(35.6809591, 139.7673068))
@@ -35,6 +36,11 @@ export default class LiveCamMap extends Component {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        {/* <NightRegion
+            fillColor='#00345c'
+            color='#001a2e'
+            refreshInterval={1000} // custom refresh rate in milliseconds, default set to 5000ms
+          /> */}
         <LocationMarker />
         <LiveCam />
         <RainViewer />
